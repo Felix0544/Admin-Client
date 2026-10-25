@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "adminclient",
+  "version": "${version}",
+  "name": "AdminClient",
+  "description": "Cheat-Client mit Menue (G). Funktioniert nur im Singleplayer oder mit OP-Rechten (Level 2+).",
+  "environment": "client",
+  "entrypoints": { "client": ["de.adminclient.AdminClient"] },
+  "mixins": ["adminclient.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
